@@ -16,11 +16,11 @@ async function loadPokemons() {
         div.innerHTML += `<div class="col">
                     <a href="detalhes.html?numero=${
                         pokemon.id
-                    }" class="text=decoration-none">
+                    }" class="text-decoration-none">
                     <div class="card" style="background-color:${getCor(
                         pokemon.types[0].type.name
                     )}">
-                       <img src"${
+                       <img src="${
                          pokemon.sprites.other["official-artwork"].front_default
                        }" alt"${pokemon.name}" class="card-img-top">
                        <div class="card-body text-white">
@@ -52,7 +52,7 @@ async function search() {
         div.innerHTML = `<div class="col">
                   <a href="detalhes.html?numero=${
                     pokemon.id
-              }" class=text-decoration-none">
+              }" class="text-decoration-none">
               <div class="card" style="background-color:${getCor(
                 pokemon.types[0].type.name
               )}">
